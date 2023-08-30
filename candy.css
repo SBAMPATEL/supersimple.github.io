@@ -1,0 +1,23 @@
+body {
+    background-image: url(candubg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+    border: 5px solid gray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
